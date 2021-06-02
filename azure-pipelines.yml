@@ -26,7 +26,7 @@ stages:
 - stage: build
   displayName: Build
   jobs:
-  - template: /eng/common/templates/jobs/jobs.yml
+  - template: /eng/common/templates/jobs/jo.yml
     parameters:
       artifacts:
         publish:
